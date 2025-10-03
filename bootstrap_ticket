@@ -1,7 +1,7 @@
-#!/bin/zsh
+#!/bin/bash
 
 # git fetch -p && git reset --hard && git checkout origin/master -b feature/ticket
-BASE_COMMAND="git fetch -p && git reset --hard && git checkout origin/master -b"
+BASE_COMMAND="git fetch -p && git reset --hard && git checkout origin/main -b"
 case "${1}" in
     -f|--feature)
         BASE_COMMAND="${BASE_COMMAND} feature/$2"
