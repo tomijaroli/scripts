@@ -1,3 +1,3 @@
-#!/bin/zsh
+#!/bin/bash
 
 rm -rf ~/.local/share/nvim

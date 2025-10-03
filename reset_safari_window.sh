@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 # Disclaimer! You might need to first give `Full Disk Access`
 # to your terminal emulator!
