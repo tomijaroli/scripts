@@ -1,1 +1,3 @@
+#!/bin/bash
+
 find /Applications -type d -name "*Electron Framework.framework" | cut -d/ -f3
